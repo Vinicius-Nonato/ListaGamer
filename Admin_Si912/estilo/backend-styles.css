@@ -1,0 +1,342 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+body div{
+	overflow: auto;
+}
+
+/* LOGIN ADMIN */
+.admin-body{
+	background-color: #363636;
+}
+.admin-box{
+	background-color: #FFF;
+	width: 40%;
+	margin-top: 100px;
+	margin-left: 30%;
+	margin-right: 30%;
+	overflow: auto;
+	border-radius: 25px;
+}
+.admin-box .formulario-admin{
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.formulario-admin .logo-title{
+	margin: 20px 0px;
+}
+.formulario-admin .logo-title h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.formulario-admin .login-admin{
+	margin-bottom: 50px;
+}
+.formulario-admin .login-admin .form-item{
+	margin: 20px 0px;
+}
+.formulario-admin .login-admin .form-item span{
+	display: block;
+	width: 100%;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.formulario-admin .login-admin .form-item input{
+	display: block;
+	width: 100%;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.formulario-admin .login-admin .enviar{
+	display: block;
+	width: 100%;
+	margin-top: 40px;
+}
+.formulario-admin .login-admin .enviar button{
+	width: 100%;
+	padding: 7.5px 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #363636;
+	color: #FFF;
+	border: none;
+	border-radius: 5px;
+}
+.formulario-admin .login-admin .enviar button:hover{
+	background-color: #4f4f4f;
+	cursor: pointer;
+}
+/* LOGIN ADMIN */
+
+/* HEADER ADMIN*/
+.admin-body .container{
+	margin: 0px;
+	width: 100%;
+	max-width: 100%;
+}
+.container .header .header-container{
+	padding: 20px;
+	border-right: 1px solid #FFF;
+	overflow: auto;
+	height: 100%;
+}
+.container .header .header-container ul{
+	list-style: none;
+	padding-left: 0px;
+}
+.container .header .header-container ul li{
+	margin: 10px 0px;
+}
+.container .header .header-container ul li a{
+	color: #FFF;
+	font-weight: 500;
+}
+.container .header .header-container .logo-title{
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #FFF;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+/* HEADER ADMIN */
+
+/*PAINEL DE CONTROLE*/
+
+.main-painel .page-title h2{
+	color: #FFF;
+}
+.main-painel .page-title{
+	margin: 20px 0px;
+}
+
+.main-painel .col-md-5{
+	border: 1px solid #FFF;
+	padding: 20px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+
+.main-painel .col-md-5 span{
+	color: #FFF;
+	font-weight: bold;
+}
+
+/*PAINEL DE CONTROLE*/
+
+/* MINHA CONTA */
+
+.alterar-admin .form-item{
+	margin: 15px 0px;
+}
+.alterar-admin .form-item span{
+	color: #FFF;
+	font-weight: bold;
+	margin-bottom: 5px;
+	width: 100%;
+	display: block;
+}
+.alterar-admin .form-item input{
+	width: 100%;
+	display: block;
+}
+.alterar-admin .form-item.final-alter{
+	margin-top: 25px;
+	padding-top: 25px;
+	border-top: 1px solid #FFF;
+}
+.alterar-admin .enviar{
+	margin-top: 15px;
+}
+.alterar-admin .enviar span{
+	font-size: 12px;
+	color: #fff;
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+}
+.alterar-admin .enviar button{
+	font-size: 12px;
+	color: #fff;
+	width: 100%;
+	display: block;
+}
+.alterar-admin .enviar button{
+	width: 100%;
+	padding: 7.5px 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #363636;
+	color: #FFF;
+	border: 2px solid #FFF;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.alterar-admin .enviar button:hover{
+	background-color: #4f4f4f;
+	cursor: pointer;
+}
+
+/* MINHA CONTA */
+
+/* Tabelas do Admin */
+
+.tabela-admin .search{
+	padding-left: 0px;
+}
+.tabela-admin .search input{
+	width: 100%;
+	padding: 6px 15px;
+}
+.tabela-admin .select-actions select{
+	width: 75%;
+	font-weight: bold;
+	padding: 0px 10px;
+	height: 40px;
+}
+.tabela-admin .aditionals .filtrar{
+	float: right;
+	text-align: right;
+	margin-right: 35px;
+}
+.tabela-admin .aditionals button{
+	cursor: pointer;
+}
+.tabela-admin .aditionals .filtrar button{
+	height: 40px;
+	background-color: #FFF;
+	color: #363636;
+	border-radius: 5px;
+	border: none;
+	padding: 5px 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.tabela-admin .aditionals .add-jogo{
+	float: right;
+	text-align: right;
+}
+.tabela-admin .aditionals .add-jogo button{
+	height: 40px;
+	background-color: #FFF;
+	color: #363636;
+	border-radius: 5px;
+	border: none;
+	padding: 5px 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.tabela-admin .tabela-jogos{
+	background-color: #FFF;
+	width: 100%;
+	margin-top: 25px;
+}
+.tabela-admin .tabela-jogos table{
+	width: 100%;
+	overflow: hidden;
+}
+.tabela-admin .tabela-jogos th{
+	border: 2px solid #FFF;
+	background-color: #363636;
+	padding: 10px 20px;
+	color: #FFF;
+}
+.tabela-admin .tabela-jogos td{
+	border: 1px solid #363636;
+	padding: 10px 20px;
+}
+
+/* Tabelas do Admin */
+
+/* MINHA CONTA */
+
+.form-admin .form-item{
+	margin: 15px 0px;
+}
+.form-admin .form-item span{
+	color: #FFF;
+	font-weight: bold;
+	margin-bottom: 5px;
+	width: 100%;
+	display: block;
+}
+.form .form-item input{
+	width: 100%;
+	display: block;
+}
+.form .form-item.final-alter{
+	margin-top: 25px;
+	padding-top: 25px;
+	border-top: 1px solid #FFF;
+}
+.form-admin .enviar{
+	margin-top: 15px;
+}
+.form-admin .enviar span{
+	font-size: 12px;
+	color: #fff;
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+}
+.form-admin .enviar button{
+	font-size: 12px;
+	color: #fff;
+	width: 100%;
+	display: block;
+}
+.form-admin .enviar button{
+	width: 100%;
+	padding: 7.5px 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #363636;
+	color: #FFF;
+	border: 2px solid #FFF;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.form-admin .enviar button:hover{
+	background-color: #4f4f4f;
+	cursor: pointer;
+}
+
+.tabela-solicitacao .excluir{
+	color: red;
+}
+
+.alterar-admin select{
+	height: 30px;
+	width: 100%;
+}
+
+.tabela-admin .search form input{
+	width: 80%;
+}
+
+.tabela-admin .search form button{
+	margin-left: 15px;
+	height: 40px;
+    background-color: #FFF;
+    color: #363636;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-admin .form-item .enviar-imagem{
+	width: 200px;
+	margin-top: 15px;
+	padding: 7.5px 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #363636;
+	color: #FFF;
+	border: 2px solid #FFF;
+	border-radius: 5px;
+	font-size: 16px;
+}
